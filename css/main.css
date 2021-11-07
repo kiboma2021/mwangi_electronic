@@ -1,0 +1,153 @@
+header{
+    color: white;
+    background-color: rgb(5, 5, 158);
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    height: 80px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(5, 5, 158);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0px solid red;
+    height: 50px;
+    justify-content: center;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navbar{
+
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+
+}
+
+
+.navbar-link{
+    display: inline-block;
+    color: white;
+    margin: 0;
+    margin-left: auto;
+    
+    
+}
+
+.navbar2{
+    color: white;
+    background-color: rgb(5, 5, 158);
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    height: 300px;
+}
+
+.signup-box{
+
+    margin: 0;
+    padding: 20px;
+    border: 0px solid red;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.signup-btn{
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+h2{
+    color: yellow;
+}
+
+.other-info{
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: row wrap;
+
+}
+
+.category{
+
+    margin:10px;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    
+}
+
+.customertest{
+    display: flex;
+    background-color: rgb(179, 176, 176);
+    margin: 0;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.customertest-text{
+    color: green;
+    font-size: 26px;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+
+}
+
+.customersignup{
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.customersignup-text{
+    background-color: blue;
+    color: white;
+    font-size: 26px;
+    padding: 0px;
+    border: 0px solid red;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
